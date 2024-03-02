@@ -10,9 +10,9 @@
 
     <div class="main">
         <div class="input">
-            <form name="checker">
+            <form name="checker" target="hiddenFrame">
                 <p1>Enter username to be checked: <br><br></p1>
-                <input type="text" name="inputbox" value="">
+                <input onkeypress="enterHandler(event, this.form)" type="text" name="inputbox" value="">
                 <input class="aaa" type="button" name="button" value="🔎" onclick="testResults(this.form)">
             </form>
         </div>
@@ -26,5 +26,8 @@
    
 
     <script src="scripts.js"></script>
+
+<iframe name="hiddenFrame" width="0" height="0" border="0" style="display: none;"></iframe>
+
 </body>
 </html>

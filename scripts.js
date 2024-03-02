@@ -16,6 +16,13 @@ function testResults (form) {
     else {
         results.textContent = "Please enter Username"
     }
-
-
+    return false;
 }
+
+
+function enterHandler(e, form)  {
+    if((e && e.keyCode == 13) || e == 0) {
+      testResults(form)
+    }
+    return false;
+ }
