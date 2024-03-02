@@ -6,13 +6,16 @@ function testResults (form) {
     let results = document.getElementById("reslt");
 
     if (name != ""){
-    if (straigtlist.includes(name.toLowerCase())) {
-        results.textContent = name.toUpperCase() + " IS NOT GAY"
+        if (straigtlist.includes(name.toLowerCase())) {
+                results.textContent = name.toUpperCase() + " IS NOT GAY"
+                }
+        else {
+                results.textContent = name.toUpperCase() + " IS GAY"
+                }
     }
     else {
-        results.textContent = name.toUpperCase() + " IS GAY"
+        results.textContent = "Please enter Username"
     }
-}
 
 
 }
