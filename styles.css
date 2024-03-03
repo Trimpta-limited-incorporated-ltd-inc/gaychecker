@@ -10,6 +10,7 @@ html, body {
     background: rgb(95,2,111);
     background: linear-gradient(90deg, rgba(95,2,111,1) 0%, rgba(104,0,57,1) 50%, rgba(133,0,68,1) 100%);
     text-align: center;
+    overflow: hidden;
 }
 
 .main {
