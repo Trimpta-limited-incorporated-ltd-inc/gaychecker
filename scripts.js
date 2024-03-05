@@ -1,4 +1,4 @@
-straigtlist = ["trimpta", "august", "robiot", "shab", "hsab", "demetrius demarcus bartholomew james the third", "intervinn"]
+straigtlist = ["trimpta", "august", "robiot", "shab", "hsab", "demetrius demarcus bartholomew james the third", "intervinn","mini"]
 
 function testResults (form) {
     var name = form.inputbox.value;
