@@ -10,7 +10,7 @@ html, body {
     background: rgb(95,2,111);
     background: linear-gradient(90deg, rgba(95,2,111,1) 0%, rgba(104,0,57,1) 50%, rgba(133,0,68,1) 100%);
     text-align: center;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .main {
@@ -19,6 +19,7 @@ html, body {
     align-items: center;
     height: 100%;
     flex-direction: column;
+    gap: 30px;
     color: white;
     font-size: larger;
 }
@@ -34,7 +35,22 @@ input {
 .aaa{width: 80px;}
 
 #creds {
-    position: absolute;
-    top: 90%;
+    top: 100%;
     text-align: end;
+}
+
+hr {
+    width: 80%;
+}
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    justify-content:center;
+    gap:20px
+    
+
 }

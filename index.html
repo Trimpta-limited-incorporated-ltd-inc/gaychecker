@@ -9,21 +9,29 @@
 <body>
 
     <div class="main">
-        <div class="input">
-            <form name="checker" target="hiddenFrame">
-                <p1>Enter username to be checked: <br><br></p1>
-                <input onkeypress="enterHandler(event, this.form)" type="text" name="inputbox" value="" spellcheck="false">
-                <input class="aaa" type="button" name="button" value="🔎" onclick="testResults(this.form)">
-            </form>
+        <div class="content">
+            <div class="input">
+                <form name="checker" target="hiddenFrame">
+                    <p1>Enter username to be checked: <br><br></p1>
+                    <input onkeypress="enterHandler(event, this.form)" type="text" name="inputbox" value="" spellcheck="false">
+                    <input class="aaa" type="button" name="button" value="🔎" onclick="testResults(this.form)">
+                </form>
+            </div>
+
+            <div class="output">
+                <h1 id="reslt">Result:</h1>
+            </div>
         </div>
 
-        <div class="output">
-            <h1 id="reslt">Result:</h1>
-        </div>
-        <p1 id="creds">Made by <a href="https://trimpta.netlify.app/">Trimpta</a><br><a href="https://github.com/Trimpta-limited-incorporated-ltd-inc/gaychecker">[SRC]</a></p1>
+        
     </div>
 
-   
+<div class="footer">
+        <p1 id="creds">Made by <a href="https://trimpta.netlify.app/">Trimpta</a><br><a href="https://github.com/Trimpta-limited-incorporated-ltd-inc/gaychecker">[SRC]</a></p1>
+        <script type="text/javascript" src="https://www.counters-free.net/count/e06z"></script><br>
+        <a href='https://www.acadoo.de/'>Ghostwriter</a> <script type='text/javascript' src='https://www.whomania.com/ctr?id=f51a2d6de31419d33e4f481f08f9ecf21e2b6d31'></script>
+</div>
+
     <iframe name="hiddenFrame" width="0" height="0" border="0" style="display: none;"></iframe>
     <script src="scripts.js"></script>
 
